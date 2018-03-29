@@ -1,3 +1,13 @@
+**Instructions for this branch**
+
+This branch contains an additional preact framework reference for testing changes in preact
+
+* Setup a folder structure like the following, where `.` is some common folder:
+    * `./developit/preact`
+    * `./andrewiggins/js-framework-benchmark`
+* Checkout whatever branch you want in `developit/preact` ([including PRs](https://help.github.com/articles/checking-out-pull-requests-locally/)) and build it
+* Follow the instructions below for running js-framework-benchmarks
+
 [![CircleCI](https://circleci.com/gh/krausest/js-framework-benchmark.svg?style=svg)](https://circleci.com/gh/krausest/js-framework-benchmark)
 
 # js-framework-benchmark
