@@ -15,7 +15,7 @@ _.each(fs.readdirSync('.'), function(name) {
 		if (!build && name.startsWith(restartWithFramework)) build = true;
 		if (build) {
 			console.log("*** Executing npm install in "+name);
-            exec('npm install', {
+            exec('yarn', {
 				cwd: name,
 				stdio: 'inherit'
 			});
